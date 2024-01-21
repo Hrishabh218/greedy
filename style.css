@@ -107,7 +107,7 @@ left: 85%;
     height: 30px;
   }
   .boucher{
-      background-color: rgb(255, 222, 7);
+      background-color: rgb(255, 140, 33);
     margin: 0 100px;
     border-radius: 20px;
   }
@@ -120,6 +120,7 @@ left: 85%;
     display: flex;
     justify-content: space-between;
     background-color: rgb(34, 120, 217);
+    text-align: center;
   }
   .boucher>.boucher-main>.card{
     background-color: rgb(248, 249, 251);
@@ -179,18 +180,35 @@ left: 85%;
         margin: 10px 0;
     }
     .middle {
-        width: 80%; 
+        width: 90vw; 
+        height: 90vw;
     }
     .center-image {
-        width: 150px;
-        height: 150px;
+        width: 30vw;
+        height: 30vw;
+  margin-left: 8px;
+       
+    }
+    .surrounding-image{
+      width:15vw; 
+     height:15vw;
+     transform: translate(50%, 50%);
     }
     .boucher-main{
    display: flex;
   flex-wrap: wrap;
+  text-align: center;
     }
-    
+
     .boucher>.boucher-main>.card{
       width: 70px;
     }
+  .result{
+      display: inline-block;
+  }
+  .score{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 5px;
+  }
   }
