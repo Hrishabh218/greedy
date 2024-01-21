@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <style>
+      body{
+        background-color: rgb(33, 132, 245);
+        margin: 0; 
+        
+        
+    }
+    
+    .navbar>h3{
+    
+        padding: 0px 10px;
+        margin: 0;
+    
+    }
+    .navbar>.navbar-brand>img{
+        border-radius: 100%;
+        
+    }
+    .navbar>button{
+        padding: 0px 10px;
+        margin: 0px 20px;
+        border-radius: 50px;
+    }
+    
+    .upper{
+    
+        display: flex;
+        justify-content: space-between; 
+    }
+    .upper>.img1{
+        width: 50px;
+        margin: 0px 20px;   
+    
+    }
+    .upper>.img2{
+        width: 50px;
+        margin: 0px 20px;
+    
+    }
+    
+    .middle {
+      position: relative;
+      width: 600px;
+      height: 600px;
+      margin: auto;
+    }
+    
+    .center-image {
+      width: 200px;
+      height: 200px;
+      
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      border-radius: 50%;
+    }
+    
+    .surrounding-image {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: yellow;
+      margin-top: -50px;
+      margin-left: -50px;
+    }
+    
+    .top-left {
+      top: 25%;
+      left: 25%;
+    }
+    
+    .top-center {
+      top: 15%;
+      left: 50%;
+    }
+    
+    .top-right {
+      top: 25%;
+      left: 75%;
+    }
+    
+    .bottom-left {
+      top: 75%;
+      left: 25%;
+    }
+    
+    .bottom-center {
+      top: 85%;
+      left: 50%;
+    }
+    
+    .bottom-right {
+      top: 75%;
+      left: 75%;
+    }
+    
+    .center-left {
+      top: 50%;
+      left: 15%;
+    }
+    
+    .center-right {
+      top: 50%;
+      left: 85%;
+    }
+        .gift{
+          display: flex;
+          justify-content: space-around;
+        
+    
+        }
+        .gift>.card{
+          background-color: rgb(33, 132, 245);
+          border: none;
+          border-radius: 100%;
+          margin-top: 70px;
+    
+    
+        }
+        .gift>.card>img{
+          width: 100px;
+          height: 100px;
+          border-radius: 100%;
+          
+    
+        }
+        .gift>.card>.card-body>.card-title{
+          background-color: white;
+          border-radius: 10px;
+          text-align: center;
+         
+    
+    
+        }
+    
+        .boucher{
+          background-color: aquamarine;
+          margin: 0 100px;
+          border-radius: 20px;
+        }
+        .boucher>h1{
+          font-size: 20px;
+          text-align: center;
+        }
+        .boucher>.boucher-main{
+          display: flex;
+          justify-content: space-between;
+          background-color: rgb(72, 109, 39);
+          
+        
+    
+        }
+        .boucher>.boucher-main>.card{
+          background-color: rgb(33, 132, 245);
+          margin: 10px;
+          
+    
+    
+        }
+        .boucher>.boucher-main>.card>img{
+          width: 50px;
+          height: 50px;
+          border-radius: 100%;
+          
+    
+        }
+        .boucher>.card>.card-body>.card-title{
+          
+          border-radius: 10px;
+          text-align: center;
+         
+    
+    
+        }
+        .score{
+          margin: 20px 80px;
+    
+          display: flex;
+          justify-content: space-around;
+        }
+    
+        .score>button
+        {
+          border-radius: 30px;
+          padding: 10px;
+        }
+    
+        .result{
+          display: flex;
+          background-color: rgb(25, 159, 114);
+          border-radius: 30px;
+          justify-content: space-between;
+          padding: 10px;
+          margin: 20px;
+    
+        }
+        .result>h3{
+          margin: 10px;
+          
+        }
+        .result>img{
+          width: 30px;
+          height: 30px;
+          border-radius: 100%;
+          margin: 10px;
+          
+          justify-content: space-between;
+    
+        }
+
+        @media (max-width: 768px) {
+          /* Adjust styles for screens smaller than 768px (e.g., mobile devices) */
+  
+          .navbar > h3,
+          .navbar > button {
+              font-size: 14px;
+          }
+  
+          .upper {
+              flex-direction: column;
+              align-items: center;
+          }
+  
+          .img1,
+          .img2 {
+              margin: 10px 0;
+          }
+  
+          .middle {
+              width: 80%; /* Adjust width for smaller screens */
+          }
+  
+          .center-image {
+              width: 150px;
+              height: 150px;
+          }
+        }
+  
+        
+    
+
+      
+    </style>
+</head>
+<body>
+    
+   <nav class="navbar ">
+
+      <h3>Current Round 322552</h3>
+      <a class="navbar-brand" href="#">
+      <img src="music.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
+      </a>
+      <button> RULE ></button>  
+   </nav>
+   <div class="upper">
+    <img class="img1" src="img1.png" alt="">
+    <img class="img2" src="img2.png" alt="">
+   </div>
+   <div class="middle">
+    <img src="center.png" alt="Central Image" class="center-image">
+  <img src="img1.png" alt="Surrounding Image 1" class="surrounding-image top-left">
+  <img src="img2.png" alt="Surrounding Image 2" class="surrounding-image top-center">
+  <img src="img3.png" alt="Surrounding Image 1" class="surrounding-image top-right">
+  <img src="img4.webp" alt="Surrounding Image 2" class="surrounding-image center-right">
+  <img src="img5.png" alt="Surrounding Image 1" class="surrounding-image bottom-right">
+  <img src="img6.png" alt="Surrounding Image 2" class="surrounding-image bottom-center">
+  <img src="img7.jpeg" alt="Surrounding Image 1" class="surrounding-image bottom-left">
+  <img src="img8.webp" alt="Surrounding Image 2" class="surrounding-image center-left">
+    
+   </div>
+
+   <div class="gift">
+    <div class="card" >
+      <img class="card-img-top" src="img2.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title" >gift</h5>
+        
+      </div>
+    </div>
+    <div class="card" >
+      <img class="card-img-top" src="img2.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center;">gift</h5>
+        
+      </div>
+    </div>
+   </div>
+
+   
+
+   <div class="boucher">
+    <h1>choose the amount of wagor > choose food </h1>
+    <div class="boucher-main" >
+      <div class="card" >
+        <img class="card-img-top" src="img8.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" >gift</h5>
+          
+        </div>
+      </div>
+      <div class="card" >
+        <img class="card-img-top" src="img8.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">gift</h5>
+          
+        </div>
+      </div>
+      <div class="card" >
+        <img class="card-img-top" src="img8.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" >gift</h5>
+          
+        </div>
+      </div>
+      <div class="card" >
+        <img class="card-img-top" src="img8.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">gift</h5>
+          
+        </div>
+      </div>
+      <div class="card" >
+        <img class="card-img-top" src="img8.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" >gift</h5>
+          
+        </div>
+      </div>
+      <div class="card" >
+        <img class="card-img-top" src="img8.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">gift</h5>
+          
+        </div>
+      </div>
+      <div class="card" >
+        <img class="card-img-top" src="img8.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" >gift</h5>
+          
+        </div>
+      </div>
+      <div class="card" >
+        <img class="card-img-top" src="img8.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">gift</h5>
+          
+        </div>
+      </div>
+    </div>
+    
+   </div>
+
+   <div class="score">
+    <button> Today winning </button>
+    <button> my record </button>
+    <button> cats left </button>
+
+   </div>
+
+   <div class="result">
+     <h3>Result</h3>
+     <img src="img6.png" alt="">
+     <img src="img6.png" alt="">
+     <img src="img6.png" alt="">
+     <img src="img6.png" alt="">
+     <img src="img6.png" alt="">
+     <img src="img6.png" alt="">
+     <img src="img6.png" alt="">
+     <img src="img6.png" alt="">
+     <img src="img6.png" alt="">
+     
+     
+
+   </div>
+
+
+
+
+
+
+ 
+</body>
+</html>
