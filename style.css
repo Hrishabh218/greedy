@@ -1,242 +1,244 @@
 body{
-    background-color: rgb(33, 132, 245);
-    
-    
+  background-color: rgb(115, 178, 250);
+  margin: 0; 
+  
+  
 }
 
 .navbar>h3{
 
-    padding: 0px 10px;
+  padding: 0px 10px;
+  margin: 0;
 
 }
 .navbar>.navbar-brand>img{
-    border-radius: 100%;
-    
+  border-radius: 100%;
+  
 }
 .navbar>button{
-    padding: 0px 10px;
-    margin: 0px 20px;
-    border-radius: 50px;
+  padding: 0px 10px;
+  margin: 0px 20px;
+  border-radius: 50px;
 }
 
 .upper{
 
-    display: flex;
-    justify-content: space-between; 
+  display: flex;
+  justify-content: space-between; 
 }
 .upper>.img1{
-    width: 50px;
-    margin: 0px 20px;   
+  width: 50px;
+  margin: 0px 20px;   
 
 }
 .upper>.img2{
-    width: 50px;
-    margin: 0px 20px;
+  width: 50px;
+  margin: 0px 20px;
 
 }
 
 .middle {
-  position: relative;
-  width: 600px;
-  height: 600px;
-  margin: auto;
+position: relative;
+width: 600px;
+height: 600px;
+margin: auto;
 }
 
 .center-image {
-  width: 200px;
-  height: 200px;
-  
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  border-radius: 50%;
+width: 200px;
+height: 200px;
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+border-radius: 50%;
 }
 
 .surrounding-image {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: yellow;
-  margin-top: -50px;
-  margin-left: -50px;
+position: absolute;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-color: yellow;
+margin-top: -50px;
+margin-left: -50px;
 }
 
 .top-left {
-  top: 25%;
-  left: 25%;
+top: 25%;
+left: 25%;
 }
 
 .top-center {
-  top: 15%;
-  left: 50%;
+top: 15%;
+left: 50%;
 }
 
 .top-right {
-  top: 25%;
-  left: 75%;
+top: 25%;
+left: 75%;
 }
 
 .bottom-left {
-  top: 75%;
-  left: 25%;
+top: 75%;
+left: 25%;
 }
 
 .bottom-center {
-  top: 85%;
-  left: 50%;
+top: 85%;
+left: 50%;
 }
 
 .bottom-right {
-  top: 75%;
-  left: 75%;
+top: 75%;
+left: 75%;
 }
 
 .center-left {
-  top: 50%;
-  left: 15%;
+top: 50%;
+left: 15%;
 }
 
 .center-right {
-  top: 50%;
-  left: 85%;
+top: 50%;
+left: 85%;
 }
-    .gift{
-      display: flex;
-      justify-content: space-around;
+  .gift{
+    display: flex;
+    justify-content: space-around;
+  
+
+  }
+  .gift>.card{
+    background-color: rgb(115, 178, 250);
+    border: none;
+    border-radius: 100%;
+    margin-top: 70px;
+
+
+  }
+  .gift>.card>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
     
 
-    }
-    .gift>.card{
-      background-color: rgb(33, 132, 245);
-      border: none;
-      border-radius: 100%;
-      margin-top: 70px;
+  }
+  .gift>.card>.card-body>.card-title{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+   
 
 
-    }
-    .gift>.card>img{
-      width: 100px;
-      height: 100px;
-      border-radius: 100%;
-      
+  }
 
-    }
-    .gift>.card>.card-body>.card-title{
-      background-color: white;
-      border-radius: 10px;
-      text-align: center;
-     
+  .boucher{
+    background-color: aquamarine;
+    margin: 0 100px;
+    border-radius: 20px;
+  }
+  .boucher>h1{
+    font-size: 20px;
+    text-align: center;
+  }
+  .boucher>.boucher-main{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(115, 178, 250);
+    
+  
 
-
-    }
-
-    .boucher{
-      background-color: aquamarine;
-      margin: 0 100px;
-      border-radius: 20px;
-    }
-    .boucher>h1{
-      font-size: 20px;
-      text-align: center;
-    }
-    .boucher>.boucher-main{
-      display: flex;
-      justify-content: space-between;
-      background-color: rgb(72, 109, 39);
-      
+  }
+  .boucher>.boucher-main>.card{
+    background-color: rgb(158, 164, 171);
+    width: 70px;
+    margin: 10px;
+    display: inline;
     
 
+
+  }
+  .boucher>.boucher-main>.card>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    
+
+  }
+  .boucher>.card>.card-body>.card-title{
+    
+    border-radius: 10px;
+    text-align: center;
+   
+
+
+  }
+  .score{
+    margin: 20px 80px;
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .score>button
+  {
+    border-radius: 30px;
+    padding: 10px;
+  }
+
+  .result{
+    display: flex;
+    background-color: rgb(25, 159, 114);
+    border-radius: 30px;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
+
+  }
+  .result>h3{
+    margin: 10px;
+    
+  }
+  .result>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 10px;
+    
+    justify-content: space-between;
+
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust styles for screens smaller than 768px (e.g., mobile devices) */
+
+    .navbar > h3,
+    .navbar > button {
+        font-size: 14px;
+    }
+
+    .upper {
+        flex-direction: row;
+        
+    }
+
+    .img1,
+    .img2 {
+        margin: 10px 0;
+    }
+
+    .middle {
+        width: 80%; 
+    }
+
+    .center-image {
+        width: 150px;
+        height: 150px;
     }
     .boucher>.boucher-main>.card{
-      background-color: rgb(33, 132, 245);
-      margin: 10px;
-      
-
-
+      width: 70px;
     }
-    .boucher>.boucher-main>.card>img{
-      width: 50px;
-      height: 50px;
-      border-radius: 100%;
-      
-
-    }
-    .boucher>.card>.card-body>.card-title{
-      
-      border-radius: 10px;
-      text-align: center;
-     
-
-
-    }
-    .score{
-      margin: 20px 80px;
-
-      display: flex;
-      justify-content: space-around;
-    }
-
-    .score>button
-    {
-      border-radius: 30px;
-      padding: 10px;
-    }
-
-    .result{
-      display: flex;
-      background-color: rgb(25, 159, 114);
-      border-radius: 30px;
-      justify-content: space-between;
-      padding: 10px;
-      margin: 20px;
-
-    }
-    .result>h3{
-      margin: 10px;
-      
-    }
-    .result>img{
-      width: 30px;
-      height: 30px;
-      border-radius: 100%;
-      margin: 10px;
-      
-      justify-content: space-between;
-
-    }
-
-    @media (max-width: 768px) {
-      
-
-      .navbar > h3,
-      .navbar > button {
-          font-size: 14px;
-      }
-
-      .upper {
-          flex-direction: column;
-          align-items: center;
-      }
-
-      .img1,
-      .img2 {
-          margin: 10px 0;
-      }
-
-      .middle {
-          width: 80%; 
-      }
-
-      .center-image {
-          width: 150px;
-          height: 150px;
-      }
-    }
-
-      
-      
-
-  
+  }
